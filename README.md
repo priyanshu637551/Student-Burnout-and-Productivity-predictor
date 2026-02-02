@@ -2,16 +2,14 @@ I built this project after realizing that many students, including me, experienc
 
 Steps followed
 
-Designed behavioral dataset schema and generated synthetic data
+1. Designed behavioral dataset schema and generated synthetic data
+2. Performed data cleaning and feature creation such as weekend flag and burnout score
+3. Conducted EDA and derived insights from correlations and patterns
+4. Built Linear Regression model to predict productivity score
+5. Built Random Forest model to classify burnout level
+6. Saved trained models using pickle for deployment
+7. Developed a Streamlit app to take user input and show predictions
 
-Performed data cleaning and feature creation such as weekend flag and burnout score
+-- Here is the streamlit app visual representation pdf
+[Streamlit.pdf](https://github.com/user-attachments/files/25020887/Streamlit.pdf)
 
-Conducted EDA and derived insights from correlations and patterns
-
-Built Linear Regression model to predict productivity score
-
-Built Random Forest model to classify burnout level
-
-Saved trained models using pickle for deployment
-
-Developed a Streamlit app to take user input and show predictions
